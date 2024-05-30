@@ -1,0 +1,43 @@
+.heroContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 115px 20px;
+  padding-bottom: 200px;
+  background: url("/rev.jpg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* .heroContainer::before,
+.heroContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: #e0f7fa;
+  border-radius: 50%;
+  z-index: -1;
+} */
+
+/* .heroContainer::before {
+  left: 0;
+}
+
+.heroContainer::after {
+  right: 0;
+} */
+
+.heroContent {
+  max-width: 50%;
+}
+
+.heroImage {
+  max-width: 50%;
+}
+
+.heroImage img {
+  width: 100%;
+}

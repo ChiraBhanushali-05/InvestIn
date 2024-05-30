@@ -1,0 +1,64 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-30%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .catCard {
+    background: url('/welcome.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .catCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .programsContainer {
+    padding: 30px 20px;
+    background: white;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .header {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+    background: url('/welcome.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchBar {
+    grid-column: span 2;
+    margin-bottom: 10px;
+    background: url('/welcome.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

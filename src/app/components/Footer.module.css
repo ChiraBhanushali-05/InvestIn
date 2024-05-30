@@ -1,0 +1,23 @@
+/* components/Footer.module.css */
+.footerContainer {
+  padding: 20px;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.contactSection {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #9DA4A3;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
